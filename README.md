@@ -45,6 +45,18 @@ pip install -r requirements.txt
 
 # 5. Configure environment variables
 nano config.py 
+
+# 6. Open New Session
+screen -S mastermusic
+
+# 7. Again Activate virtual environment
+venv\scripts\activate   # (Linux: source venv/bin/activate)
+
+# 8. Again Install dependencies
+pip install -r requirements.txt
+
+# 9. Run the Bot
+python main.py or python3 main.py
 ```
 
 🖥️ Screen Shortcuts & Management (Important):
