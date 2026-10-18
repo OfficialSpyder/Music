@@ -71,8 +71,8 @@ Bash
 ⚙️ CONFIGURATION (config.py)
 Ensure your config.py file contains the correct cluster credentials:
 
-Python
-import os
+`Python`
+```import os
 
 API_ID = int(os.getenv("API_ID", "your_api_id"))
 API_HASH = os.getenv("API_HASH", "your_api_hash")
@@ -80,6 +80,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token")
 STRING_SESSION = os.getenv("STRING_SESSION", "your_string_session")
 LOGGER_ID = int(os.getenv("LOGGER_ID", "-100xxxxxxxxxx"))
 START_IMG = "start.png"
+```
 
 📋 COMMAND DIRECTORY
 🎵 Audio & Video Streaming
