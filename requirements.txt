@@ -1,0 +1,5 @@
+Telethon==1.38.1
+py-tgcalls==3.0.0
+yt-dlp==2026.03.17
+psutil==5.9.8
+aiohttp==3.9.3
