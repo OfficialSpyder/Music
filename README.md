@@ -31,7 +31,7 @@ Run the following commands sequentially in your terminal (`D:\Music` or Linux VP
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/OfficialSpyder/Music.git](https://github.com/OfficialSpyder/Music.git)
+git clone https://github.com/OfficialSpyder/Music.git
 cd Music
 
 # 2. Create Python virtual environment
